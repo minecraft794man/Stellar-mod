@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["WIW", "W W", "W W"],
+  "key": {
+    "I": { "item": "minecraft:iron_ingot" },
+    "W": { "item": "minecraft:white_wool" }
+  },
+  "result": { "id": "weltraum:spacesuit_leggings", "count": 1 }
+}
