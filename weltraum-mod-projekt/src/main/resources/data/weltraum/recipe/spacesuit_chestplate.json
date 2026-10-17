@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:crafting_shaped",
-  "pattern": ["W W", "WIW", "WIW"],
-  "key": {
-    "I": { "item": "minecraft:iron_ingot" },
-    "W": { "item": "minecraft:white_wool" }
-  },
-  "result": { "id": "weltraum:spacesuit_chestplate", "count": 1 }
-}
