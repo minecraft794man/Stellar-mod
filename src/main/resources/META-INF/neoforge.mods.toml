@@ -1,0 +1,26 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "All Rights Reserved"
+
+[[mods]]
+modId = "weltraum"
+version = "0.1.0"
+displayName = "Weltraum"
+description = '''
+Fliege mit der Rakete zu Erdorbit, Mond und Mars, ueberlebe mit dem Raumanzug
+und baue im Orbit einen Super-Laser, der auf die Erde schiesst.
+'''
+
+[[dependencies.weltraum]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.weltraum]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,1.21.2)"
+ordering = "NONE"
+side = "BOTH"
